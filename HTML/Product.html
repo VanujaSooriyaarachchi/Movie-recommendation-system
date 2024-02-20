@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - Shopping Cart</title>
+    <!--Link to css-->
+    <link rel="stylesheet" href="../CSS/cart.css" />
+    <!--Box Icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="containerNavigation"></div>
+    <header>
+      <img src="../images/Logo.jpg" alt="Movie Land" class="logo" />
+      <nav class="navigation">
+        <a href="HomePage.html">Home</a>
+        <a href="gallery2.html">Gallery</a>
+        <a href="favPage.html">FavoritePage</a>
+        <a href="Product.html">Products</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="NewsLetter.html">NewsLetter</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="AboutUs.html">AboutUs</a>
+        <a href="Signup2.html">
+          <button class="btnLogin-popup">Login</button>
+        </a>
+      </nav>
+    </header>
+    <!--Header-->
+    <br /><br /><br /><br />
+    <!--Nav-->
+    <div class="nav container">
+      <a href="#" class="logo">Products</a>
+      <!--Cart Icon-->
+      <i class="bx bx-shopping-bag" id="cart-icon"></i>
+      <!--Cart-->
+      <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <!--Content-->
+        <div class="cart-content"></div>
+
+        <!--Total-->
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">$0</div>
+        </div>
+        <!--Buy Button-->
+        <button
+          type="button"
+          class="btn-buy"
+          onclick=" window.location.href='../HTML/cart_form.html'"
+        >
+          Buy Now
+        </button>
+        <!--Cart Close-->
+        <i class="bx bx-x" id="close-cart"></i>
+      </div>
+    </div>
+
+    <!--Shop-->
+    <section class="shop container">
+      <h2 class="section-title">Shop products</h2>
+      <!--Content-->
+      <div class="shop-content">
+        <!--Box1-->
+        <div class="product-box">
+          <img
+            src="../images/Student 3/Cart/1.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Captain America Toy</h2>
+          <span class="price">$20</span>
+          <div class="product-quantity">Product available 50</div>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box2-->
+        <div class="product-box">
+          <img
+            src="../images/Student 3/Cart/7.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">RC Bat-Mobile Vehicle</h2>
+          <span class="price">$25</span>
+          <div class="product-quantity">Product available 45</div>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box3-->
+        <div class="product-box">
+          <img
+            src="../images/Student 3/Cart/6.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Super Girl Toy</h2>
+          <span class="price">$30</span>
+          <div class="product-quantity">Product available 40</div>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box4-->
+        <div class="product-box">
+          <img
+            src="../images/Student 3/Cart/8.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Jurassic Park Mug</h2>
+          <span class="price">$35</span>
+          <div class="product-quantity">Product available 20</div>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box5-->
+        <div class="product-box">
+          <img
+            src="../images/Student 3/Cart/5.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">PS4 Video game</h2>
+          <span class="price">$45</span>
+          <div class="product-quantity">Product available 35</div>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box6-->
+        <div class="product-box">
+          <img
+            src="../images/Student 3/Cart/4.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Money-heist Jumpsuite</h2>
+          <span class="price">$50</span>
+          <div class="product-quantity">Product available 15</div>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box7-->
+        <div class="product-box">
+          <img
+            src="../images/Student 3/Cart/3.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Iphone 12 case cover</h2>
+          <span class="price">$10</span>
+          <div class="product-quantity">Product available 25</div>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box8-->
+        <div class="product-box">
+          <img
+            src="../images/Student 3/Cart/2.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Sky Bags</h2>
+          <span class="price">$45</span>
+          <div class="product-quantity">Product available 10</div>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Buttons Container -->
+    <div class="button-container">
+      <!-- Increase Button with Boxicon -->
+      <button onclick="increaseFontSize()">
+        <i class="bx bx-zoom-in"></i> Increase
+      </button>
+      <!-- Decrease Button with Boxicon -->
+      <button onclick="decreaseFontSize()">
+        <i class="bx bx-zoom-out"></i> Decrease
+      </button>
+    </div>
+    <!--Link to JS-->
+    <script src="../JS/cart.js"></script>
+
+    <br /><br /><br /><br />
+    <footer class="footer">
+      <div>
+        <p class="editorsLink">
+          &copy; 2023 MOVIE LAND ENTERTAINMENT (Pvt) Ltd. All Rights Reserved.
+        </p>
+      </div>
+      <div>
+        <p class="editorsLink">Developed by</p>
+        <a href="../HTML/editorPageStudent3.html">Naveen Savinda</a>
+      </div>
+    </footer>
+  </body>
+</html>

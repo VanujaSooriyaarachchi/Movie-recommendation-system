@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../CSS/feedback.css" rel="stylesheet" />
+    <title>Web Site Feedback</title>
+  </head>
+  <body>
+    <div class="containerNavigation"></div>
+    <header>
+      <img src="../images/Logo.jpg" alt="Movie Land" class="logo" />
+      <nav class="navigation">
+        <a href="HomePage.html">Home</a>
+        <a href="gallery2.html">Gallery</a>
+        <a href="favPage.html">FavoritePage</a>
+        <a href="Product.html">Products</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="NewsLetter.html">NewsLetter</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="AboutUs.html">AboutUs</a>
+        <a href="Signup2.html">
+          <button class="btnLogin-popup">Login</button>
+        </a>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <h3>Rating Us...</h3>
+      <form id="feedbackForm" action="#">
+        <div class="input-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="input-group">
+          <label for="rating">Rating:</label>
+          <select id="rating" name="rating" required>
+            <option value="" disabled selected>Select a rating</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+          </select>
+        </div>
+        <textarea
+          id="comments"
+          name="comments"
+          cols="30"
+          rows="5"
+          placeholder="Type Your Comment..."
+        ></textarea>
+        <div class="btn-group">
+          <button type="submit" class="btn submit">Submit</button>
+          <button type="button" class="btn cancel" onclick="resetForm()">
+            Reset
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="../JS/feedback.js"></script>
+  </body>
+</html>

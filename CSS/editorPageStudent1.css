@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+	margin:0 ;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Poppins', sans-serif;
+
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    flex-direction: column
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+.containerNavigation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 85px; 
+	background-color: rgba(53, 52, 52, 0.8); 
+	z-index: 98; 
+  }
+video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+.logo {
+	width: 150px; 
+	height: auto; 
+  }
+
+.navigation a {
+	position: relative;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 40px;
+}
+
+.navigation a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	border-radius: 5px;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform .5s;
+
+}
+
+.navigation a:hover::after {
+	transform: scaleX(1);
+	transform-origin: right;
+}
+
+.navigation .btnLogin-popup {
+	width: 130px;
+	height: 50px;
+	background: transparent;
+	border: 2px solid #fff;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 10px;
+	transition: .5s;
+
+}
+
+.navigation .btnLogin-popup:hover {
+	background: #fff ;
+	color: #162938;
+
+}
+
+
+.x {
+    width: 80%;
+    margin-left:21px ;
+    background-color: #00000000;
+    color: #ffffff;
+    align-items: center;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana;
+    flex: 1;
+}
+
+
+
+h1{
+
+    color: #00e2ef;
+    text-align: center;
+    font-size: 450%;
+}
+.topcontainer{
+
+    color: #eeeeee8f;
+    font-size: larger;
+    font-weight: 1000;
+    text-align: center;
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: auto;
+    background-color: #ffffffb4;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    
+    
+
+}
+
+.container{
+    color: #ffffff00;
+    text-align: center;
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: auto;
+    background-color: #ffffffb4;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.336);
+
+}
+
+.container .images .image-box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.container .images{
+    width: 100%;
+}
+.images{
+    margin: auto;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.images .image-box{
+    margin: 8px;
+}
+.images .image-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.2s linear;
+}
+.image-box:hover img{
+    transform: scale(1.05);
+}
+
+.head2{
+    
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 6px;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+}
+.head2:hover{
+    background-color: #26d8d8;
+    color: #5a5959;
+}
+.container h3{
+    color: #000000;
+    border:#d4e725;
+    border-width:5px;
+    border-style:solid;
+    border-radius: 6px;
+}
+
+.topcontainer .head1{
+    color: #000000;
+
+    border-radius: 6px;
+
+}
+
+.link{
+    background-color: #000000a1;
+    border-radius: 24px;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.link:hover{
+    background-image: linear-gradient( #d4e725,#e4e725);
+    color: #000000;
+}
+.student{
+    font-size:small;
+    border-color:2px solid #ffffff;
+    background-color: #00000057;
+    color: #000000;
+    border-radius: 100px;
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+    height: 20%;
+}
+
+.footer {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    
+}
+.editorsLink{
+    text-align: center;
+    color: #ffffff;
+
+}
+
+
+
+  

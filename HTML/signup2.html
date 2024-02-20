@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <link rel="icon" href="../img/Sitelogotitle.jpg" type="../img/x-icon" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/signup2.css" />
+  </head>
+  <body>
+    <div class="containerNavigation"></div>
+    <div class="video-container">
+      <video autoplay muted loop>
+        <source src="../videos/live.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <header>
+      <img src="../images/Logo.jpg" alt="Movie Land" class="logo" />
+      <nav class="navigation">
+        <a href="HomePage.html">Home</a>
+        <a href="gallery2.html">Gallery</a>
+        <a href="favPage.html">FavoritePage</a>
+        <a href="Product.html">Products</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="NewsLetter.html">NewsLetter</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="AboutUs.html">AboutUs</a>
+        <a href="Signup2.html">
+          <button class="btnLogin-popup">Login</button>
+        </a>
+      </nav>
+    </header>
+    <div class="x">
+      <div class="container">
+        <div class="title">Personal Details</div>
+        <form id="form" method="get" class="form" name="form">
+          <div class="user-details">
+            <div class="input-box">
+              <label for="username" style="float: left">Name:</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter your name"
+              />
+              <small>Error</small>
+            </div>
+
+            <div class="input-box">
+              <label for="pactives" style="float: left"
+                >Favourite Movie Category:</label
+              >
+              <input
+                type="text"
+                id="pactives"
+                name="pactives"
+                placeholder="Enter movie category, e.g-'Horror'"
+              />
+              <small>Error</small>
+            </div>
+
+            <div class="input-box">
+              <label for="email" style="float: left">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+              <small>Error</small>
+            </div>
+
+            <div class="input-box">
+              <label for="ftype" style="float: left"
+                >Favourite Actor/Actress:</label
+              >
+              <input
+                type="text"
+                id="ftype"
+                name="ftype"
+                placeholder="Enter the food type you prefer"
+              />
+              <small>Error</small>
+            </div>
+
+            <div class="input-box">
+              <label for="age" style="float: left">Age:</label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                placeholder="Enter your age"
+              />
+              <small>Error</small>
+            </div>
+
+            <div class="input-box">
+              <label for="time" style="float: left">Time of the day:</label>
+              <input
+                type="text"
+                id="time"
+                name="time"
+                placeholder="Enter the time you prefer watching movies"
+              />
+              <small>Error</small>
+            </div>
+
+            <div class="input-box">
+              <label for="occupation" style="float: left">Occupation?</label>
+              <input
+                type="text"
+                id="occupation"
+                name="occupation"
+                placeholder="Enter your occupation"
+              />
+              <small>Error</small>
+            </div>
+          </div>
+
+          <div class="input-box">
+            <div class="gender-details">
+              <span class="gender-title" id="gender">Gender:</span>
+              <div class="category">
+                <span class="male">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="male"
+                    id="gender_male"
+                  />
+                  <label for="gender_male">Male</label>
+                </span>
+
+                <span class="female">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="female"
+                    id="gender_female"
+                  />
+                  <label for="gender_female">Female</label>
+                </span>
+              </div>
+              <small>Error</small>
+            </div>
+          </div>
+
+          <div class="button">
+            <button type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+      <script src="../JS/signup2.js"></script>
+      <br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+    <footer class="footer">
+      <div>
+        <p class="editorsLink">
+          &copy; 2023 MOVIE LAND ENTERTAINMENT (Pvt) Ltd. All Rights Reserved.
+        </p>
+      </div>
+      <div>
+        <p class="editorsLink">Developed by</p>
+        <a href="../HTML/editorPageStudent1.html">Chavindu Dulaj</a>
+      </div>
+    </footer>
+  </body>
+</html>

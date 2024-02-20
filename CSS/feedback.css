@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    flex-direction: column
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+.containerNavigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85px; 
+  background-color: rgba(53, 52, 52, 0.8); 
+  z-index: 98; 
+  }
+
+.logo {
+  width: 150px; 
+  height: auto; 
+  }
+
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navigation a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s;
+
+}
+
+.navigation a:hover::after {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+.navigation .btnLogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: .5s;
+
+}
+
+.navigation .btnLogin-popup:hover {
+  background: #fff ;
+  color: #162938;
+
+}
+
+:root {
+	--yellow: #FFBD13;
+	--blue: #4383FF;
+	--blue-d-1: #3278FF;
+	--light: #F5F5F5;
+	--grey: #AAA;
+	--white: #FFF;
+	--shadow: 8px 8px 30px rgba(0,0,0,.05);
+}
+
+body {
+	position: relative; 
+	background-image: url("../images/Student 2/Feedback/image/miles-morales-ps5-2021-4k-te-2560x1600.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 1rem;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index: -1; 
+}
+
+.wrapper {
+	background: var(--white);
+	padding: 2rem;
+	max-width: 600px;
+	width: 100%;
+	border-radius: .75rem;
+	box-shadow: var(--shadow);
+	text-align: center;
+}
+
+.wrapper h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+textarea {
+	width: 100%;
+	background: var(--light);
+	padding: 1rem;
+	border-radius: .5rem;
+	border: none;
+	outline: none;
+	resize: none;
+	margin-bottom: .5rem;
+}
+
+#name{
+	background: var(--light);
+	border-radius: 10px;
+	height: 30px;
+	border: none;
+	outline: none;
+	resize: none;
+}
+
+#email{
+	background: var(--light);
+	border-radius: 10px;
+	height: 30px;
+	border: none;
+	outline: none;
+	resize: none;
+}
+
+#rating{
+	background: var(--light);
+	border-radius: 10px;
+	height: 30px;
+	border: none;
+	outline: none;
+	resize: none;
+}
+
+.btn-group {
+	display: flex;
+	grid-gap: .5rem;
+	align-items: center;
+}
+
+.btn-group .btn {
+	padding: .75rem 1rem;
+	border-radius: .5rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: .875rem;
+	font-weight: 500;
+}
+
+.btn-group .btn.submit {
+	background: var(--blue);
+	color: var(--white);
+}
+
+.btn-group .btn.submit:hover {
+	background: var(--blue-d-1);
+}
+
+.btn-group .btn.cancel {
+	background: var(--white);
+	color: var(--blue);
+}
+
+.btn-group .btn.cancel:hover {
+	background: var(--light);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+label[for="name"] {
+    font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 1rem; 
+}
+
+label[for="email"] {
+    font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 1rem; 
+}
+
+label[for="rating"] {
+    font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.input-group {
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group input {
+    flex: 1; 
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.input-group label {
+    margin-right: 10px; 
+}
+
+.input-group #rating {
+    flex: 1; 
+    margin-left: 10px; 
+}

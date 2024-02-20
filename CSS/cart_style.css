@@ -1,0 +1,41 @@
+/* Global styles */
+body {
+    background-color: #151B54;
+    font-family: system-ui;
+}
+
+/* Form Input styles */
+input[type=text], input[type=email], input[type=tel], input[type=datetime], input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #151B54;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #87CEFA;
+}
+
+.details {
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    opacity: 0.85;
+    width: 50%;
+}

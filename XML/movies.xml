@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+   <movie>
+      <name>Extraction</name>
+      <director>Sam Hargrave</director>
+      <year>2020</year>
+      <image>../images/Student 4/images/Extraction.jpeg</image>
+   </movie>
+   <movie>
+      <name>Avatar: The Way of Water</name>
+      <director>James Cameron</director>
+      <year>2022</year>
+      <image>../images/Student 4/images/AvatarTheWayofWater.jpg</image>
+   </movie>
+   <movie>
+      <name>Top Gun: Maverick</name>
+      <director>Joseph Kosinski</director>
+      <year>2022</year>
+      <image>../images/Student 4/images/TopGunMaverick.png</image>
+   </movie>
+   <movie>
+      <name>Dune: Part One</name>
+      <director>Denis Villeneuve</director>
+      <year>2021</year>
+      <image>../images/Student 4/images/Dune part one.jpg</image>
+   </movie>
+   <movie>
+      <name>The Dark Knight</name>
+      <director>Christopher Nolan</director>
+      <year>2008</year>
+      <image>../images/Student 4/images/The Dark Knight.jpeg</image>
+   </movie>
+   <movie>
+      <name>The Batman</name>
+      <director>Matt Reeves</director>
+      <year>2022</year>
+      <image>../images/Student 4/images/The Batman.jpg</image>
+   </movie>
+   <movie>
+      <name>Spider-Man: No Way Home</name>
+      <director>Jon Watts</director>
+      <year>2021</year>
+      <image>../images/Student 4/images/Spider-Man No Way Home.jpeg</image>
+   </movie>
+   <movie>
+      <name>Inception</name>
+      <director>Christopher Nolan</director>
+      <year>2010</year>
+      <image>../images/Student 4/images/Inception.jpg</image>
+   </movie>
+   <movie>
+      <name>The Matrix</name>
+      <director>The Wachowski Brothers</director>
+      <year>1999</year>
+      <image>../images/Student 4/images/The Matrix.jpg</image>
+   </movie>
+   <movie>
+      <name>Interstellar</name>
+      <director>Christopher Nolan</director>
+      <year>2014</year>
+      <image>../images/Student 4/images/Interstellar.jpeg</image>
+   </movie>
+   <movie>
+      <name>Transformers: Rise of the Beasts</name>
+      <director>Steven Caple Jr.</director>
+      <year>2023</year>
+      <image>../images/Student 4/images/Transformers Rise of the Beasts.jpeg</image>
+   </movie>
+   <movie>
+      <name>Thor: Love and Thunder</name>
+      <director>Taika Waititi</director>
+      <year>2022</year>
+      <image>../images/Student 4/images/Thor Love and Thunder.jpeg</image>
+   </movie>
+   <movie>
+      <name>Blade Runner 2049</name>
+      <director>Denis Villeneuve</director>
+      <year>2017</year>
+      <image>../images/Student 4/images/Blade-Runner-2049.jpg</image>
+   </movie>
+   <movie>
+      <name>Tenet</name>
+      <director>Christopher Nolan</director>
+      <year>2020</year>
+      <image>../images/Student 4/images/Tenet.jpeg</image>
+   </movie>
+   <movie>
+      <name>Jurassic World Dominion</name>
+      <director>Colin Trevorrow</director>
+      <year>2022</year>
+      <image>../images/Student 4/images/Jurassic World Dominion.jpeg</image>
+   </movie>
+</movies>
